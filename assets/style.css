@@ -1,0 +1,66 @@
+*{background-color:rgb(32, 108, 179);
+}
+
+header h3 {
+    display:flex;
+    background-color: rgb(166, 255, 0);
+    width: 30%;
+    height:130px;
+    text-align:right
+    color: blue;
+    font-size:100px;
+    display:flex;
+}
+header nav ul{
+    display:flex;
+    list-style: image();
+    text-align: right;
+    background-color: rgb(43, 162, 226);
+    justify-content: flex-end;
+    font-size:50px;
+    
+}
+
+h2 {
+    display:flex;
+    border-right:solid;
+    font-size:50px;
+    text-align:right;
+    
+}
+
+
+
+
+li{
+    margin:30px;
+}
+
+nav {
+    display: flex-end;
+}
+
+main {
+display:flex;
+}
+
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
