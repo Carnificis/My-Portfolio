@@ -1,52 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head> </head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Selectors with CSS</title>
+  <link rel="stylesheet" href="./assets/reset.css" />
+  <link rel="stylesheet" href="./assets/style.css" />
 
-<head>
-</head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Advanced Selectors with CSS</title>
-<link rel="stylesheet" href="./assets/reset.css"/>
-<link rel="stylesheet" href="./assets/style.css"/>
-
-<body>
+  <body>
     <header>
-        <h3>Jack Kelly</h3>
-            <nav class="nav container">
-                <ul>
-                    <li> About Me </li>
-                    <li> Work </li>
-                    <li> Contact Me</li>
-                    <li> Resume</li>
-                </ul>
-            </nav>
+      <h3>Jack Kelly</h3>
+      <nav class="nav container">
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <div>
-        <aside>
-        </aside>
+      <aside></aside>
     </div>
     <main>
-    <h2>About <br> Me</h2>
-    <div>
-    <p class="about-me-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit natus quae hic illo inventore animi facilis nihil at rem consectetur est accusamus dolorem, maiores aliquid, optio deserunt? Similique, voluptatum qui.</p>
-    <p class="about-me-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi maiores optio suscipit, obcaecati repellat quos molestias quod sunt cupiditate perferendis consectetur consequuntur soluta magnam libero facere? Id quaerat quia nesciunt.</p>
-    </div>
-    <h2>Work</h2>
-    <div>
-    <p class="about-me-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit natus quae hic illo inventore animi facilis nihil at rem consectetur est accusamus dolorem, maiores aliquid, optio deserunt? Similique, voluptatum qui.</p>
-    <p class="about-me-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi maiores optio suscipit, obcaecati repellat quos molestias quod sunt cupiditate perferendis consectetur consequuntur soluta magnam libero facere? Id quaerat quia nesciunt.</p>
-    </div>
-    <h2>Contact <br> Me</h2>
-    <div>
-    <p class="about-me-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit natus quae hic illo inventore animi facilis nihil at rem consectetur est accusamus dolorem, maiores aliquid, optio deserunt? Similique, voluptatum qui.</p>
-    <p class="about-me-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi maiores optio suscipit, obcaecati repellat quos molestias quod sunt cupiditate perferendis consectetur consequuntur soluta magnam libero facere? Id quaerat quia nesciunt.</p>
-    </div>
-    <h2>Resume</h2>
-    <div>
-    <p class="about-me-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit natus quae hic illo inventore animi facilis nihil at rem consectetur est accusamus dolorem, maiores aliquid, optio deserunt? Similique, voluptatum qui.</p>
-    <p class="about-me-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi maiores optio suscipit, obcaecati repellat quos molestias quod sunt cupiditate perferendis consectetur consequuntur soluta magnam libero facere? Id quaerat quia nesciunt.</p>
-</div>
-</main>
-</body>
+      <div class="about-me" id="about-me">
+        <h2>
+          About <br />
+          Me
+        </h2>
+        <img src="./assets/images/me.jpg"/>
+        <p class="about-me-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Reprehenderit natus quae hic illo inventore animi facilis nihil at rem
+          consectetur est accusamus dolorem, maiores aliquid, optio deserunt?
+          Similique, voluptatum qui.
+        </p>
+      </div>
+      <div class="about-me" id="work">
+        <h2>Work</h2>
+        <img src="./assets/images/Work2.jpg"/> 
+        <p class="about-me-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Reprehenderit natus quae hic illo inventore animi facilis nihil at rem
+          consectetur est accusamus dolorem, maiores aliquid, optio deserunt?
+          Similique, voluptatum qui.
+        </p>
+      </div>
+      <div class="about-me" id="contact-me">
+        <h2>
+          Contact <br />
+          Me
+        </h2>
+        <img src="./assets/images/Work.jpg"/>
+        <p class="about-me-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Reprehenderit natus quae hic illo inventore animi facilis nihil at rem
+          consectetur est accusamus dolorem, maiores aliquid, optio deserunt?
+          Similique, voluptatum qui.
+        </p>
+      </div>
+      <div class="about-me" id="resume">
+        <h2>Resume</h2>
+        <img src="./assets/images/opportunity-g595222889_640.jpg"/>
+        <p class="about-me-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Reprehenderit natus quae hic illo inventore animi facilis nihil at rem
+          consectetur est accusamus dolorem, maiores aliquid, optio deserunt?
+          Similique, voluptatum qui.
+        </p>
+      </div>
+    </main>
+  </body>
 </html>

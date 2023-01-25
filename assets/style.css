@@ -1,15 +1,14 @@
-*{background-color:rgb(32, 108, 179);
+*{background-color:rgb(160, 187, 212);
 }
 
 header h3 {
-    display:flex;
-    background-color: rgb(166, 255, 0);
-    width: 30%;
-    height:130px;
-    text-align:right
-    color: blue;
+    display:block;
+    background-color: rgb(138, 212, 0);
+    width: 260px;
+    height:220px;
+    text-align:right;
+    color: rgb(22, 29, 155);
     font-size:100px;
-    display:flex;
 }
 header nav ul{
     display:flex;
@@ -22,15 +21,22 @@ header nav ul{
 }
 
 h2 {
-    display:flex;
-    border-right:solid;
     font-size:50px;
-    text-align:right;
+    width: 10%;
+    /* text-align:right; */
     
 }
+.about-me-text{
+  width:80%;
+  border-left:solid;
+  padding-left:10px;
+}
 
-
-
+.about-me {
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
 
 li{
     margin:30px;
@@ -41,7 +47,7 @@ nav {
 }
 
 main {
-display:flex;
+  margin:30px; 
 }
 
 
