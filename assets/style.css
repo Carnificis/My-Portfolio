@@ -3,18 +3,17 @@
 
 header h3 {
     display:block;
-    background-color: rgb(138, 212, 0);
+    background-color: #002ad4;
     width: 260px;
     height:220px;
     text-align:right;
-    color: rgb(22, 29, 155);
+    color: rgb(22, 155, 95);
     font-size:100px;
 }
 header nav ul{
     display:flex;
     list-style: image();
     text-align: right;
-    background-color: rgb(43, 162, 226);
     justify-content: flex-end;
     font-size:50px;
     
@@ -58,15 +57,37 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: green;
+    color: rgb(0, 0, 0);
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    color: rgb(231, 26, 26);
   }
   
   /* selected link */
   a:active {
     color: blue;
   }
+
+  /* Cards are split into two columns at 992px or smaller */
+@media screen and (max-width: 992px) {
+  .card {
+    width:5%;
+  }
+  /* Change the header color */
+  header {
+    background: #772014;
+  }
+}
+
+/* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 10%;
+  }
+  /* Change the header color */
+  header {
+    background: #8ac4ff;
+  }
+}
