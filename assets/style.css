@@ -37,7 +37,7 @@ header nav ul{
   /* width:80%;
   border-left:solid;
   padding-left:10px; */
-  font-size: 3rem;
+  font-size: 5rem;
   font-style: italic;
   letter-spacing: 2px;
 }
@@ -145,6 +145,7 @@ a:link {
   .section-content ul{
     display: flex;
     justify-content: space-evenly;
+    font-size: 2rem;
   }
   /* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {
