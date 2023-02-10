@@ -1,6 +1,11 @@
 *{background-color:rgb(160, 187, 212);
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
 header h3 {
     display:block;
     background-color: #002ad4;
@@ -31,12 +36,20 @@ h2 {
   padding-left:10px;
 }
 
-.about-me {
+.content-row {
   display:flex;
   flex-direction: row;
   margin-bottom: 20px;
+  justify-content: space-evenly;
 }
 
+.side-title{
+  width: 18%;
+  border-right: 5px solid rgb(138, 44, 44);
+}
+.section-content{
+  width:75%
+}
 li{
     margin:30px;
 }
