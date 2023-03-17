@@ -17,7 +17,7 @@ header h1 {
     width: 20vw;
     /* //height:10vh; */
     text-align:center;
-    color: rgb(22, 155, 95);
+    color: white;
     font-size:4.5rem;
 
 }
@@ -158,12 +158,12 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: rgb(0, 0, 0);
+    color: white;
   }
   
   /* mouse over link */
   a:hover {
-    color: rgb(231, 26, 26);
+    color: red;
   }
   
   /* selected link */
