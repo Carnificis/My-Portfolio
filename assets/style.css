@@ -98,7 +98,7 @@ header nav ul{
 .project{
   width:48%;
   position:relative;
-  border:2px solid rgb(55, 123, 55);
+  border:2px solid green;
   margin:1%;
   padding: 1%;
 }
@@ -183,7 +183,7 @@ a:link {
   }
   /* Change the header color */
   header {
-    background: #772014;
+    background: red;
   }
 }
 
